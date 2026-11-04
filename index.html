@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>وسيطك Business Man | شحن وسفر من القاهرة إلى السودان</title>
+<meta name="description" content="وسيطك: رحلات يومية بالبص من القاهرة إلى جميع ولايات السودان، شحن بضائع وعفش، تذاكر طيران وعمرة بإصدار سريع.">
+<meta property="og:title" content="وسيطك Business Man — ثقة • أمان • سرعة">
+<meta property="og:description" content="رحلات يومية من القاهرة إلى جميع ولايات السودان، شحن وسفر وعمرة.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="nav" aria-label="الأقسام">
+  <a href="#prices">الأسعار</a><a href="#contact">تواصل</a><a href="#umrah">العمرة</a><a href="#family">من أسرتنا</a><a href="#code">الشفرة</a>
+  <button id="share" type="button">مشاركة</button>
+</nav>
+
+<header class="hero" id="top">
+  <div class="crownrow">
+    <span class="flag">🇪🇬</span>
+    <svg class="crown" viewBox="0 0 120 80" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5D76E"/><stop offset=".5" stop-color="#D4AF37"/><stop offset="1" stop-color="#B8860B"/></linearGradient></defs><path d="M8 66 L2 22 L36 44 L60 8 L84 44 L118 22 L112 66 Z" fill="url(#g)"/><rect x="8" y="68" width="104" height="9" rx="3" fill="url(#g)"/></svg>
+    <span class="flag">🇸🇩</span>
+  </div>
+  <p class="ribbon">إضافة وكالات السياحة والسفر الجوية ضمن أسرتنا الكريمة</p>
+  <h1 class="logo">وسيطك</h1>
+  <p class="en">Business Man 😎</p>
+  <p class="world">حول العالم</p>
+  <p class="rides"><span>🚌 القرشي وسيطك</span><span>✈️</span><span>🚚 القرشي وسيطك</span></p>
+  <p class="trio">ثقة • أمان • سرعة</p>
+  <p>نصل بأمانتك… كما لو كانت لنا</p>
+  <p>من القاهرة إلى جميع ولايات السودان الحبيب 🇸🇩</p>
+  <a class="btn" href="#prices">شوف الأسعار واحجز</a>
+</header>
+
+<main>
+<section class="box">
+  <div class="split">
+    <article class="frame">
+      <h2>فرع الإمارات – عجمان 🇦🇪</h2>
+      <p>وكالة Pink لخدمة رجال الأعمال المتكاملة والسياحة</p>
+      <a class="wa" data-c="pink" data-m="wa" data-show></a>
+      <p class="bar">أبو عبد ربه لخدمات التنظيف 🏢✨<br><span dir="ltr">ABO ABDRUBBO CLEANING SERVICES</span><br><small dir="ltr">Trusted • Reliable • Professional • Quality Guaranteed</small></p>
+      <p>خدمة العملاء</p>
+      <a class="wa" data-c="clean" data-m="wa" data-show></a>
+    </article>
+    <article class="frame">
+      <h2>فرع السودان الحبيب 🔥</h2>
+      <p>وكالة أبشيبة للسفر والسياحة بالتعاون مع وكالة البراري</p>
+      <p class="bar">تذاكر طيران وموافقات أمنية سريعة</p>
+      <a class="tel" data-c="abshiba" data-m="tel" data-show></a>
+    </article>
+  </div>
+</section>
+
+<section class="box">
+  <ul class="cards">
+    <li>عروض خاصة للأسر والطلاب</li><li>تخفيضات على أسعار التذاكر للأفراد</li>
+    <li>إرساليات فورية للبضائع بالبص</li><li>شحن عفش منزلي بأمان وتغليف احترافي</li>
+  </ul>
+  <p class="bar wide">رحلات يومية بأسعار معقولة من القاهرة إلى جميع ولايات السودان - ارساليات سريعه ب البص</p>
+</section>
+
+<section class="box" id="prices">
+  <h2>الوجهات والأسعار</h2>
+  <p class="muted">من القاهرة بالجنيه المصري</p>
+  <div class="tools">
+    <input id="q" type="search" placeholder="ابحث عن مدينة…" aria-label="ابحث عن مدينة">
+    <button id="sort" type="button">الترتيب: الافتراضي</button>
+  </div>
+  <div id="grid" class="grid"></div>
+  <p id="empty" class="muted" hidden>لا توجد وجهة بهذا الاسم.</p>
+  <p class="bar">للحجز: تأكيد التذكرة بعربون 200 جنيه مصري فقط</p>
+</section>
+
+<section class="box" id="contact">
+  <h2>أرقام التواصل</h2>
+  <div class="big">
+    <p>مكتب السودان (المعبر الحدودي والمندوب الرسمي) — عبد الرحيم قرشي</p>
+    <a class="wa" data-c="sudan" data-m="wa" data-show></a>
+  </div>
+  <div class="big">
+    <p>مكتب القاهرة</p>
+    <a class="tel" data-c="cairo" data-m="tel" data-show></a>
+  </div>
+  <p class="muted">بالتضامن مع أهل الثقة للشحن الدولي – <a class="num" data-c="thiqa" data-m="tel" data-show></a></p>
+</section>
+
+<section class="box">
+  <h2>شركاؤنا</h2>
+  <ul id="partners" class="partners"></ul>
+</section>
+
+<section class="box" id="umrah">
+  <div class="coin"><small>العمرة</small><small>بدون خدمات</small><b>860</b><small>ريال</small></div>
+  <p class="badge">إصدار سريع</p>
+  <details class="req" open>
+    <summary>المتطلبات</summary>
+    <ul><li>صورة الجواز والإقامة</li><li>صورة هوية الكفيل + رقم جوال الكفيل من أبشر</li></ul>
+  </details>
+</section>
+
+<section class="box">
+  <ul class="checks">
+    <li>خبرة طويلة في النقل والشحن</li><li>أسطول حديث وفريد</li><li>متابعة دقيقة لحالة الشحنة</li>
+  </ul>
+  <p class="bar wide">🇪🇬 دائماً سايقين وأصولنا سودانية أصيلة 🇸🇩</p>
+</section>
+
+<section class="box" id="family">
+  <h2>من أسرتنا</h2>
+  <div class="split">
+    <article class="frame">
+      <h3>متجر عزو أونلاين المتنوع الإلكتروني EZOO Online 🛒</h3>
+      <p>تشكيلة من المنتجات المتنوعة</p>
+      <p><a class="num" data-c="cairo" data-m="wa" data-show></a> – <a class="num" data-c="design" data-m="wa" data-show></a></p>
+      <a class="link" href="https://2219412.eg.dukan.shop" target="_blank" rel="noopener noreferrer"><span dir="ltr">2219412.eg.dukan.shop</span></a>
+    </article>
+    <article class="frame">
+      <h3>مدد فون 📱</h3>
+      <p>لجميع ملحقات الهاتف المحمول + صيانة هواتف ذكية</p>
+      <a class="wa" data-c="mdd" data-m="wa" data-show></a>
+      <p class="muted">Eng / عبد الحليم صلاح — تخصص هندسة ميكانيكية — <a class="num" data-c="halim" data-m="tel" data-show></a></p>
+    </article>
+  </div>
+</section>
+
+<section class="box" id="code">
+  <div class="ticket">
+    <p>الشفرة: <b>أنا من طرف وسيطك 😎👑💪</b></p>
+    <p>اذكرها عند طلب أي خدمة وسيتم التصديق لك بالخصم 😁🤍</p>
+    <button id="copyCode" type="button">انسخ الشفرة</button>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <p>دعاية وإعلان ومونتاج وإخراج وتسويق 🎬</p>
+  <p class="sig">تصميم: حريف بوسترات خرافية 😎🔥</p>
+  <p>للتصاميم: <a class="num" data-c="design" data-m="wa" data-show></a></p>
+  <div id="social" class="social"></div>
+  <p class="muted">قريباً: النسخة الدينية ومحتوى ديني وقصص الأنبياء 😇🤍</p>
+</footer>
+
+<div class="dock">
+  <a class="tel" data-c="cairo" data-m="tel">اتصال</a>
+  <a class="wa" data-c="cairo" data-m="wa">واتساب</a>
+</div>
+
+<dialog id="dlg">
+  <div class="dbox">
+    <p class="muted">من القاهرة إلى</p>
+    <h3 id="dName"></h3>
+    <p class="dp"><b id="dPrice"></b> جنيه مصري</p>
+    <p class="muted">تأكيد التذكرة بعربون 200 جنيه مصري فقط</p>
+    <a id="dWa" class="btn wa" target="_blank" rel="noopener noreferrer" href="#">احجز عبر واتساب</a>
+    <button type="button" class="ghost" data-close>إغلاق</button>
+  </div>
+</dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript><p class="muted" style="text-align:center">فعّل JavaScript لعرض الأسعار وأرقام التواصل.</p></noscript>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
